@@ -1,19 +1,22 @@
 ---
-description: Pixel Lab is a retro-inspired MkDocs theme. Explore its setup guides and live Markdown components.
+description: Pixel Lab is a retro-inspired theme for documentation sites, currently available for MkDocs. Explore its setup guides and live Markdown components.
 ---
 
 # Pixel Lab
 
-A retro-inspired theme for MkDocs, with pixel borders, bold colors, and
-arcade-style shadows. This website uses Pixel Lab's default appearance: what
-you see here is what you start with.
+A retro-inspired theme for documentation sites, with pixel borders, bold colors,
+and arcade-style shadows. Currently available for [MkDocs](https://www.mkdocs.org/).
+
+Pixel Lab brings together responsive navigation, search, and rich Markdown
+components. This website uses Pixel Lab's default appearance: what you see here
+is what you start with.
 
 [Get started](getting-started.md) · [Explore components](components/index.md) ·
 [View on GitHub](https://github.com/trained-by-humans/pixel-lab)
 
 ## Start with your site
 
-Install the theme and select it in `mkdocs.yml`:
+Install Pixel Lab's MkDocs integration and select the theme in `mkdocs.yml`:
 
 ```bash
 python -m pip install mkdocs-pixel-lab

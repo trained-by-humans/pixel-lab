@@ -1,12 +1,18 @@
 # Compatibility
 
+## Supported generators
+
+Pixel Lab currently supports [MkDocs](https://www.mkdocs.org/). The
+`mkdocs-pixel-lab` package provides its MkDocs templates, assets, and optional
+plugins. The setup guides and configuration examples in this manual use MkDocs.
+
 ## Requirements
 
 - Python 3.10 or newer.
 - MkDocs 1.6 or newer, below 2.0.
 - Pymdown Extensions 10.x and Pygments 2.19.1 or newer, below 3.0.
 
-Installing Pixel Lab installs these Python dependencies. Required Markdown
+Installing `mkdocs-pixel-lab` installs these Python dependencies. Required Markdown
 extensions must still be enabled in `mkdocs.yml`; see the relevant
 [component guide](../components/index.md).
 

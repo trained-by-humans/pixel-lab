@@ -10,8 +10,9 @@
 </p>
 
 <p align="center">
-  A retro-inspired theme for <a href="https://www.mkdocs.org/">MkDocs</a>, with pixel borders, bold colors, and arcade-style shadows.<br>
-  Built for modern documentation with responsive navigation, search, and rich Markdown components.
+  A retro-inspired theme for documentation sites, with pixel borders, bold colors, and arcade-style shadows.<br>
+  Responsive navigation, search, and rich Markdown components.<br>
+  Currently available for <a href="https://www.mkdocs.org/">MkDocs</a>.
 </p>
 
 ## Demo
@@ -27,13 +28,16 @@ includes examples of its components.
 
 ## Features
 
-- A tastefully designed, retro-inspired theme with pixel-art assets, crisp borders, and playful shadows.
+- A retro-inspired appearance with pixel-art assets, crisp borders, and playful shadows.
+- Responsive section navigation, toolbar search, and repository, source, and edit links.
+- Markdown components including card grids, alerts, tabs, collapsible content, and syntax-highlighted code with copy buttons.
+- Bundled fonts, keyboard focus styles, and a skip-to-content link.
 - Optional metadata, Git-based sitemap dates, and `robots.txt` plugins.
 - Opt-in Google Analytics 4 with consent controls.
 
 ## Quick start
 
-For an existing MkDocs project, install Pixel Lab:
+For an existing MkDocs project, install Pixel Lab's MkDocs integration:
 
 ```bash
 python -m pip install mkdocs-pixel-lab
@@ -52,7 +56,7 @@ Preview your site:
 mkdocs serve
 ```
 
-Requires Python 3.10 or newer. Installing Pixel Lab also installs MkDocs,
+Requires Python 3.10 or newer. Installing `mkdocs-pixel-lab` also installs MkDocs,
 Pymdown Extensions, and Pygments.
 
 Starting a new project? Follow [Get started](docs/getting-started.md) for

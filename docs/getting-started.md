@@ -1,8 +1,11 @@
 # Get started
 
-Pixel Lab is a theme for [MkDocs](https://www.mkdocs.org/), not a separate site
-generator. You need Python 3.10 or newer. Installing the theme also installs
-MkDocs, Pymdown Extensions, and Pygments.
+Use Pixel Lab with [MkDocs](https://www.mkdocs.org/) to build your documentation
+site. MkDocs is the currently supported generator; Pixel Lab provides the theme's
+layouts, components, and interactions.
+
+You need Python 3.10 or newer. Installing the `mkdocs-pixel-lab` package also
+installs MkDocs, Pymdown Extensions, and Pygments.
 
 ## Install
 
@@ -24,7 +27,7 @@ python -m venv .venv
     .venv\Scripts\Activate.ps1
     ```
 
-Then install Pixel Lab:
+Then install Pixel Lab's MkDocs integration:
 
 ```bash
 python -m pip install mkdocs-pixel-lab

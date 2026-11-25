@@ -1,1 +1,1 @@
-"""Pixel Lab MkDocs theme package."""
+"""MkDocs integration for the Pixel Lab documentation theme."""

@@ -1,5 +1,9 @@
 # Contributing
 
+Pixel Lab is a retro-inspired theme for documentation sites, currently available
+for MkDocs. Its MkDocs integration is distributed as `mkdocs-pixel-lab`, with
+templates, assets, and plugins in `src/mkdocs_pixel_lab/`.
+
 ## Set up your checkout
 
 Use Python 3.10 or newer. Clone the repository and install the theme in editable
